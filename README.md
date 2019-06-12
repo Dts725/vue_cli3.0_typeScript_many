@@ -1,39 +1,12 @@
 # proj_ts
+## 项目初始化
+npm install 或 cnpm install
 
-## Project setup
-```
-npm install
-```
+## 多项目配置文件
+详见文件 : `projectConfig.js`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 多项目运行
+eg : `npm run dev projectA`
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 多项目打包
+eg : `npm run dev projectB`
